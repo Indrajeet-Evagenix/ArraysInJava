@@ -1,4 +1,5 @@
 package ArrayWithObjects;
+
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -19,8 +20,6 @@ public class EmployeeMain {
 		emp[7] = new Employee(108, "Pankaj", "Computer", 51000);
 		emp[8] = new Employee(109, "Pawan", "Extc", 48000);
 		emp[9] = new Employee(110, "Aashish", "HR", 76000);
-		
-		
 
 		for (Employee emp1 : emp) {
 			if (emp1.salary > 60000) {
@@ -31,6 +30,7 @@ public class EmployeeMain {
 		}
 
 		System.out.println();
+		System.out.println("'HR' Slary Hiked By 10%");
 		for (Employee emp2 : emp) {
 			if (emp2.dept.equalsIgnoreCase("hr")) {
 				int sal = (emp2.salary * 10) / 100;

@@ -2,14 +2,14 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class DigitsOfProduct {
-	
-	void productOfDigits(int arr[]){
-		int product=1;
-		for(int i=0;i<arr.length;i++) {
-			product=product* arr[i];
+
+	void productOfDigits(int arr[]) {
+		int product = 1;
+		for (int i = 0; i < arr.length; i++) {
+			product = product * arr[i];
 		}
-		System.out.println("Elements of the array are: "+Arrays.toString(arr));
-		System.out.println("Sum of the elements of the array : "+product);
+		System.out.println("Elements of the array are: " + Arrays.toString(arr));
+		System.out.println("Product of the elements of the array : " + product);
 	}
 
 	public static void main(String[] args) {
@@ -22,10 +22,10 @@ public class DigitsOfProduct {
 		for (int i = 0; i < num; i++) {
 			arr[i] = sc.nextInt();
 		}
-		
-		DigitsOfProduct dp=new DigitsOfProduct();
+
+		DigitsOfProduct dp = new DigitsOfProduct();
 		dp.productOfDigits(arr);
-		
+
 		sc.close();
 
 	}

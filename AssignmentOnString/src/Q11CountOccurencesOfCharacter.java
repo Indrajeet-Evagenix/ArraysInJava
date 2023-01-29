@@ -22,7 +22,7 @@ public class Q11CountOccurencesOfCharacter {
 				System.out.println(ch[i] + "---->" + cnt);
 			}
 		}
-		System.out.println();43
+		System.out.println();
 	}
 
 	public static void main(String[] args) {

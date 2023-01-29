@@ -14,9 +14,9 @@ public class FindMaxValue {
 	}
 
 	public static void main(String[] args) {
-		int arr[] = { 10, 11, 12,16, 13, 14, 15 };
-		
-		FindMaxValue fm=new FindMaxValue();
+		int arr[] = { 10, 11, 12, 16, 13, 14, 15 };
+
+		FindMaxValue fm = new FindMaxValue();
 		fm.max(arr);
 
 	}

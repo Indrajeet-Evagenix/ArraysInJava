@@ -16,7 +16,7 @@ public class WholeMissingNumber {
 	}
 
 	public static void main(String[] args) {
-		int arr[] = { 1, 2, 3, 5, 6, 9, 10 };
+		int arr[] = { 1, 2, 3, 5, 6, 9, 10, 17, 22 };
 
 		WholeMissingNumber wmn = new WholeMissingNumber();
 		wmn.missingNumber1(arr);

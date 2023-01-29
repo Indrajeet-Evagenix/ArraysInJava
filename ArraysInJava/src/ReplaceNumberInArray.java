@@ -5,7 +5,6 @@ public class ReplaceNumberInArray {
 		int sum = 0;
 		System.out.print("After Replace Array is: ");
 		for (int i = 0; i < arr.length; i++) {
-
 			if (arr[i] < 0) {
 				arr[i] = sum;
 			}
@@ -19,7 +18,7 @@ public class ReplaceNumberInArray {
 			sum = sum + mark[i];
 		}
 		System.out.println("The Total Marks is: " + sum);
-		System.out.println("The Average of Marks is: " + (sum / i));
+		System.out.println("The Average of Marks is: " + (sum / mark.length));
 	}
 
 	public static void main(String[] args) {
